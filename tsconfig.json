@@ -3,6 +3,7 @@
   "compileOnSave": false,
   "include": ["src/**/*.ts", "node_modules/bootstrap/index.d.ts"],
   "compilerOptions": {
+    "allowSyntheticDefaultImports":true,
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
